@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: rgb(119, 0, 255);
+    text-align: Center;
+    padding: 50px;
+    margin-left:20px
+}
+
+a {
+    text-decoration: none;
+    color: White;
+    border: 2px solid yellow;
+    border-radius: 25px;
+    padding: 30px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: rgb(255, 0, 128);
+}
+
+#about {
+    background-color: rgb(255, 0, 128);
+    color: rgb(0, 255, 76);
+    padding: 100px;
+    margin-top: 40px;
+
+}

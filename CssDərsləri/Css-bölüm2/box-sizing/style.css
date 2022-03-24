@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+#title {
+    height: 400px;
+    background-color: red;
+    border: 5px dashed green;
+}
+
+#text {
+    background-color: aqua;
+}
