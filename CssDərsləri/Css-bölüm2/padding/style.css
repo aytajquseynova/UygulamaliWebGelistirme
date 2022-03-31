@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: red;
+    text-align: Center;
+}
+
+a {
+    text-decoration: none;
+    color: White;
+
+    padding-left: 70px;
+
+
+
+}
+
+#about {
+    background-color: yellow;
+    color: red;
+    padding: 100px;
+    margin-top: 40px;
+
+}
