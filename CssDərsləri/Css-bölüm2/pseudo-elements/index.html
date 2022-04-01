@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    p {
+      font-weight: bold;
+    }
+    p::first-line {
+      color: red;
+    }
+    p::first-letter {
+      font-size: 48px;
+    }
+    p.detail {
+      color: black;
+    }
+    ::selection {
+      background-color: green;
+    }
+    p::after {
+      content: "\274C";
+      font-size:16px;
+    }
+  </style>
+  <body>
+    <p class="info">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+      officia possimus, quibusdam nobis architecto rerum, natus eum minus
+      perferendis delectus repellat iure similique dolores adipisci quae est ex
+      at?
+    </p>
+    <p class="detail">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ex
+      deserunt et veritatis quo fugit eligendi, nam, tenetur, recusandae
+      quisquam laudantium necessitatibus esse quidem impedit aspernatur
+      blanditiis cumque eos. Esse!
+    </p>
+  </body>
+</html>
