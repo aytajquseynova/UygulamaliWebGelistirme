@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .menu {
+      background-color: rgb(50, 16, 22);
+      padding: 20px;
+    }
+    .navbar-menu {
+      display: inline-block;
+      width: calc(100% - 81px);
+      text-align: right;
+    }
+    .navbar-menu-items {
+      display: inline-block;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      color: black;
+    }
+
+    .about {
+      background-color: rgb(153, 203, 153);
+      height: 400px;
+    }
+    .navbar-menu-items::before {
+      content: "\274C";
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header class="menu">
+        <a href="" class="brand-logo">MovieApp</a>
+        <nav class="navbar-menu">
+          <ul class="navbar-items">
+            <li class="navbar-menu-items"><a href="">Movie</a></li>
+            <li class="navbar-menu-items"><a href="">About</a></li>
+            <li class="navbar-menu-items"><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="about">
+          <h1>Nece filmleri sevirsiz?</h1>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
