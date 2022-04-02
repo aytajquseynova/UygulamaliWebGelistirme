@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   <style>
     * {
       box-sizing: border-box;
@@ -61,15 +68,55 @@
       margin-left: 10px;
     }
 
-    .row {
+    #how-it-works-inner .row {
       margin-bottom: 40px;
       text-align: center;
-
     }
-    .col {
+    .col-3 {
       display: inline-block;
       width: 30%;
       margin: 10px;
+    }
+    .col-2 {
+      display: inline-block;
+      width: calc(50% - 3px);
+      height: 300px;
+      vertical-align: top;
+    }
+    .col-3 i {
+      font-size: 20px;
+      color: brown;
+    }
+    #features {
+      padding: 10px;
+    }
+
+    .features-left {
+      background: url("https://wallpaperaccess.com/full/2000044.png");
+      background-size: cover;
+    }
+    .features-right {
+      background-color: grey;
+      padding: 40px;
+      vertical-align: top;
+    }
+    .features-text {
+      margin-bottom: 20px;
+    }
+
+    .features-button {
+      border: 1 px solid white;
+      border-radius: 2px;
+      background-color: brown;
+      color: White;
+      text-decoration: none;
+      padding: 7px 15px;
+      text-align: center;
+      font-size: 18px;
+    }
+    .features-button:hover {
+      background-color: white;
+      color: brown;
     }
   </style>
   <body>
@@ -98,26 +145,46 @@
           </p>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col-3">
+            <i class="fas fa-registered"></i>
             <h3 class="how-it-work-item-title">Register</h3>
             <p class="how-it-work-item-about">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
               illum, voluptatum neque libero quibusdam sequi!
             </p>
           </div>
-          <div class="col">
+          <div class="col-3">
+            <i class="fas fa-registered"></i>
             <h3 class="how-it-work-item-title">Choose a plan</h3>
             <p class="how-it-work-item-about">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
               illum, voluptatum neque libero quibusdam sequi!
             </p>
           </div>
-          <div class="col">
+          <div class="col-3">
+            <i class="far fa-smile"></i>
             <h3 class="how-it-work-item-title">Enjoy Movify</h3>
             <p class="how-it-work-item-about">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
               illum, voluptatum neque libero quibusdam sequi!
             </p>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="row">
+          <div class="col-2 features-left"></div>
+          <div class="col-2 features-right">
+            <h2 class="features-title">
+              Watch all Movies& TV Shows once they get realesad
+            </h2>
+            <p class="features-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              odio illum consequuntur enim quia odit sit amet neque earum
+              numquam, delectus quas, laborum qui, sequi iste voluptate.
+              Provident, et saepe!
+            </p>
+            <a class="features-button" href="">View Features</a>
           </div>
         </div>
       </section>
