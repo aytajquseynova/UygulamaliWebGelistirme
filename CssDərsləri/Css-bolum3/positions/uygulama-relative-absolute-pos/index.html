@@ -10,61 +10,66 @@
     * {
       box-sizing: border-box;
     }
-    body {
-      background: yellowgreen;
+    body{
+        width:100%;
     }
-    .content-inner {
-      background: url("https://apollotran.com/demo/at_auros_demo_tem/images/image-slideshow.jpg");
-      background-size: cover;
-      background-position: center;
-      height: 400px;
+
+    #content{
+        background: url("https://apollotran.com/demo/at_auros_demo_tem/images/image-slideshow.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        padding:10px;
+        width:100%;
+        position:relative;
+     
     }
-    .content-inner {
-      color: White;
-      text-align: center;
-      text-transform: none;
+    .mainpage-text{
+        position:absolute;
+        top:50%;
+        left:50%;
+        color:White;
+        margin:0;
+     
     }
-    .description-slide {
-      top: 40px;
-      position: absolute;
+    .decription-slide-title{
+        transform:translate(-50%, 10px);
+        font-size:36px;
+        font-weight:600;
     }
-    .decription-slide-title {
-      font-size: 36px;
-      font-weight: 600;
+    .title_slideshow{
+        transform:translate(-50%, 50px);
+        font-size:36px;
+        font-weight:600;
     }
-    .title_slideshow {
-      font-size: 36px;
-      font-weight: 600;
-      margin: 0px;
+    .text_slideshow{
+        transform:translate(-50%, 100px);
+        font-size:14px;
+        font-weight:400;
+        text-align:Center;
     }
-    .text-slideshow {
-      font-size: 14px;
-      font-weight: 400;
-      margin: 0 0 10px;
-    }
-    .content-inner-button {
-      text-decoration: none;
-      color: black;
-      background-color: yellow;
-      padding: 40px;
-      border-radius: 10px;
+    .content-inner{
+        
     }
   </style>
-
   <body>
     <section id="content">
-      <div class="content-inner">
-        <div class="description-slide">
-          <h4 class="decription-slide-title">#1 Include Page Builder Plugin</h4>
-          <p class="title_slideshow">1,500,000+ People Can Not Be Wrong…</p>
-          <p class="text_slideshow">
-            AP page builder plugin for Prestashop – take full control over your
-            site. Build any layout you can imagine with intuitive drag and drop
-            builder – no programming knowledge required.
-          </p>
-        </div>
-        <div class="content-inner-btn">
-          <a class="content-inner-button" href="">Demo</a>
+      <div class="mainpage">
+        <div class="content-inner">
+          <div class="content-inner-text">
+            <h4 class="mainpage-text decription-slide-title">
+              #1 Include Page Builder Plugin
+            </h4>
+            <p class="mainpage-text title_slideshow">1,500,000+ People Can Not Be Wrong…</p>
+            <p class="mainpage-text text_slideshow">
+              AP page builder plugin for Prestashop – take full control over
+              your site. Build any layout you can imagine with intuitive drag
+              and drop builder – no programming knowledge required.
+            </p>
+          </div>
+          <div class="content-inner-button">
+            <a class="content-inner-button" href="">Demo</a>
+          </div>
         </div>
       </div>
     </section>
