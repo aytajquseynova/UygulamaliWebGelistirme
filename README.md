@@ -10,7 +10,7 @@
 - Browser defaults
 - Css öncəlikləri
 - Css inheritance 
-### Css bölüm 2 başlama tarixi-30 mart 
+### Css bölüm 2 başlama tarixi-30 mart, bitmə tarixi -2 aprel
 - Box Model
 - Margin
 - Padding
@@ -30,7 +30,7 @@
 - Fontawesome icons
 - Fonts
 - Google Fonts
-### Css bölüm 3
+### Css bölüm 3 başlama tarixi- 4 aprel, bitmə tarixi 4 aprel
 - Helper classes
 - Box shadow
 - Colors
