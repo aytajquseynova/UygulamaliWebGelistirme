@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+}
+html{
+    height:2000px;
+}
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*navbar menu starts*/
+.menu {
+    padding: 15px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-brand-logo:hover {
+    cursor: pointer;
+}
+
+.navbar-menu-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 25px;
+}
+
+nav {
+    display: inline-block;
+    width: calc(100% - 174px);
+    text-align: center;
+}
+
+.menu-navbar {
+    display: inline-block;
+}
+
+.navbar-menu-items {
+    display: inline-block;
+}
+
+.navbar-menu-item-feature {
+    color: #ea4242;
+}
+
+.navbar-menu-item {
+    color: black;
+}
+
+.navbar-menu-item:hover {
+    color: #ea4242;
+    cursor: pointer;
+}
+
+/*navbar menu ends*/
