@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*navbar menu starts*/
+.menu {
+    padding: 15px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-brand-logo:hover {
+    cursor: pointer;
+}
+
+.navbar-menu-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 25px;
+}
+
+nav {
+    display: inline-block;
+    width: calc(100% - 174px);
+    text-align: center;
+}
+
+.menu-navbar {
+    display: inline-block;
+}
+
+.navbar-menu-items {
+    display: inline-block;
+}
+
+.navbar-menu-item-feature {
+    color: #ea4242;
+}
+
+.navbar-menu-item {
+    color: black;
+}
+
+.navbar-menu-item:hover {
+    color: #ea4242;
+    cursor: pointer;
+}
+
+/*navbar menu ends*/
+/*content section starts*/
+.mainpage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.content-inner-btn {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background: #f3ff39;
+    border-color: #f3ff39;
+    border-radius: 25px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 900;
+    height: 50px;
+    min-width: 180px;
+    line-height: 50px;
+    padding: 0px 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.content-inner-btn:hover {
+    cursor: pointer;
+    background: #535353;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.mainpage-img {
+    height: 500px;
+    object-fit: Cover;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.decription-slide-title {
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.title_slideshow {
+    font-size: 34px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.text_slideshow {
+    font-size: 14px;
+    margin: 4px 0px 0px 0px;
+    font-weight: 400;
+}
+
+.content-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*content section ends*/
+/*homepages section starts*/
+.row {
+    width: 100%;
+
+}
+
+.col {
+    width: 100%;
+    text-align: Center;
+}
+
+.col-4 {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+}
+
+.homepages-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #343434;
+}
+
+.col-4 img {
+    object-fit: cover;
+    height: 300px;
+}
+
+.homepage-img img:hover {
+    cursor: pointer;
+}
+
+.demo-number {
+    color: #428bca;
+    font-size: 18x;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.demo-number:hover {
+    cursor: pointer;
+}
+
+/*homepages section ends*/
+/*multiplehomepage section starts*/
+#MultipleHomepage {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.col-6 {
+    display: inline-block;
+}
+
+.left {
+    width: 41.6%;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.left h2 {
+    font-weight: 600;
+    color: #343434;
+    font-size: 22px;
+}
+
+.left p {
+    line-height: 24px;
+    color: #8d8d8d;
+    font-size: 12px;
+    padding: 20px 0px;
+}
+
+.right {
+    width: 57%;
+}
+
+.col-6.right img {
+    height: 390px;
+    object-fit: Cover;
+    vertical-align: middle;
+
+}
+
+/*#MultipleHomepage section ends*/
+/*#MultipleHomepage sectionundaki problemler qalib*/
+/*details-builder section starts*/
+#details-builder p{
+    font-size:14px;
+    color: #958d8d;
+}
+.product-details-builder{
+    padding: 20px 0px 60px 0px;
+}
+.details-builder-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #343434;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+.details-builder-text{
+    margin: 0 0 10px;
+}
+/*details-builder section ends- bu sectionda olcu ve p`lerin rengin deyismek qaldi*/
+/*scroll to top*/
+#back-to-top{
+    text-align:center;
+    text-decoration:none;
+    width: 45px;
+    height: 45px;
+    background: #da4b38;
+    color: white;
+    font-size: 15px;
+    line-height: 45px;
+    position:fixed;
+    right:50px;
+    bottom:20px;
+}
+#back-to-top:hover{
+    background-color:gray;
+}
