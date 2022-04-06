@@ -30,7 +30,7 @@
 - Fontawesome icons
 - Fonts
 - Google Fonts
-### Css bölüm 3 başlama tarixi- 4 aprel, bitmə tarixi 4 aprel
+### Css bölüm 3 başlama tarixi- 4 aprel, bitmə tarixi 7 aprel
 - Helper classes
 - Box shadow
 - Colors
