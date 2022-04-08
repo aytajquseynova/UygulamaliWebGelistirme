@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      width: 100%;
+    }
+    .counter {
+      background: red;
+      width: 100%;
+      color: white;
+      position: relative;
+    }
+    .row {
+      width: 100%;
+    }
+    .col-4 {
+      width: 33%;
+      display: inline-block;
+      text-align: center;
+      padding:19px;
+    }
+    span{
+        display:block;
+        padding:2px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="counter">
+        <div class="row">
+          <div class="col-4">
+            <div class="counter-text movie">
+              <span class="counter-number">974</span>
+              <span class="activite">Movies</span>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="counter-text tvshow">
+              <span class="counter-number">456</span>
+              <span class="activite">Tv Shows</span>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="counter-text user">
+              <span class="counter-number">976</span>
+              <span class="activite">Users</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
