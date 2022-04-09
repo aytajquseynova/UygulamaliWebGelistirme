@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      width: 100%;
+    }
+    .col-2 {
+      width: 49%;
+      display: inline-block;
+    }
+    footer {
+      width: 100%;
+      background-color: rgb(103, 103, 137);
+      height: 80px;
+    }
+    li {
+      display: inline-block;
+      list-style-type: none;
+      padding: 10px;
+      color: White;
+    }
+    ul {
+      text-align: Center;
+    }
+    i {
+      border-radius: 50%;
+      border: 1px solid grey;
+      padding: 10px;
+    }
+    .fb i {
+      background-color: #43609c;
+    }
+    .twitter i {
+      background-color: #1da1f2;
+    }
+    .ig i {
+      background-color: #f09433;
+    }
+    i:hover {
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <footer>
+        <div class="footer-page">
+          <div class="col-2">
+            <ul class="page-items">
+              <li>About</li>
+              <li>Blog</li>
+              <li>Form</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul class="social-media-icons">
+              <li class="fb"><i class="fab fa-facebook"></i></li>
+              <li class="twitter"><i class="fab fa-twitter"></i></li>
+              <li class="ig"><i class="fab fa-instagram"></i></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
