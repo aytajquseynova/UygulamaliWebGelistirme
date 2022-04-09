@@ -14,7 +14,36 @@
       width: 100%;
       margin: 0;
     }
+    h2 {
+      text-align: Center;
+      color: blue;
+      font-size: 24px;
+    }
+    label {
+      color: blue;
+      font-size: 24px;
+      font-weight: bold;
+      outline: none;
+    }
+    form {
+      margin: auto;
+      width: 500px;
+    }
+    input:not(.button) {
+      display: block;
+      width: 100%;
+      margin-top: 15px;
+      padding: 10px;
+      background-color: white;
+      border: 1px solid blue;
+      border-radius: 14px;
+    }
     .button {
+      display: block;
+    }
+    .button,
+    .gender {
+      margin-top: 15px;
       text-decoration: none;
       background-color: blue;
       padding: 10px;
@@ -35,13 +64,15 @@
         <input type="text" />
         <label for="password">Password</label>
         <input type="password" />
-        <label for="gender">Gender</label>
-        <select>
-          <option value="select">Select</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
-        <input type="button" value="Sign Up" class="button">
+        <label for="gender"
+          >Gender
+          <select class="gender">
+            <option value="select">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select></label
+        >
+        <input type="button" value="Sign Up" class="button" />
       </form>
     </div>
   </body>
