@@ -16,10 +16,11 @@
     .moviecard {
       width: 100%;
       text-align: center;
-      padding: 0px 15px 0px 15px;
+
     }
     .row {
       width: 100%;
+
     }
     h2 {
       text-align: Center;
@@ -27,25 +28,37 @@
       font-weight: bold;
       font-size: 24px;
     }
-    img {
-      height: 200px;
-      width: 250px;
-    }
+
     .col-4 {
       width: 30%;
       display: inline-block;
       text-align: Center;
-      border: 1px solid grey;
       height: 500px;
+      box-shadow: 2px 3px 2px 3px #042c48;
+   
     }
-    .moviecard-item {
-      padding: 45px;
+.moviecard-item{
+    position:relative;
+    top:0px;
+    transition:all .3s
+}
+.moviecard-item:hover{
+    top:-20px;
+    cursor:pointer;
+}
+    .moviecard-item-img {
+      background: url("https://pictyourlamp.com/wp-content/uploads/2021/04/lampe-3d-death-note-ryuk.jpg");
+      width: 100%;
+      height: 50vh;
+      background-size: cover;
+    
     }
     span {
       display: block;
       color: black;
       font-size: 14px;
-      margin-bottom: 5px;
+      margin-bottom: 8px;
+      font-weight:bold;
     }
     .movie-info-text {
       margin-bottom: 25px;
@@ -57,23 +70,19 @@
       color: white;
       text-align: Center;
       padding: 15px;
+      border-radius:5px;
       font-size: 18px;
     }
   </style>
   <body>
     <div class="container">
       <div class="moviecard">
-       
-          <h2>Latest Movies& TV Shows</h2>
-      
+        <h2>Latest Movies& TV Shows</h2>
+
         <div class="row">
           <div class="col-4">
             <div class="moviecard-item">
-              <div class="moviecard-item-img">
-                <img
-                  src="https://pictyourlamp.com/wp-content/uploads/2021/04/lampe-3d-death-note-ryuk.jpg"
-                />
-              </div>
+              <div class="moviecard-item-img"></div>
               <div class="moviecard-item-info">
                 <span>Death Note</span>
                 <span class="movie-info-text">
@@ -87,11 +96,7 @@
           </div>
           <div class="col-4">
             <div class="moviecard-item">
-              <div class="moviecard-item-img">
-                <img
-                  src="https://pictyourlamp.com/wp-content/uploads/2021/04/lampe-3d-death-note-ryuk.jpg"
-                />
-              </div>
+              <div class="moviecard-item-img"></div>
               <div class="moviecard-item-info">
                 <span>Death Note</span>
                 <span class="movie-info-text">
@@ -104,11 +109,7 @@
           </div>
           <div class="col-4">
             <div class="moviecard-item">
-              <div class="moviecard-item-img">
-                <img
-                  src="https://pictyourlamp.com/wp-content/uploads/2021/04/lampe-3d-death-note-ryuk.jpg"
-                />
-              </div>
+              <div class="moviecard-item-img"></div>
               <div class="moviecard-item-info">
                 <span>Death Note</span>
                 <span class="movie-info-text">
