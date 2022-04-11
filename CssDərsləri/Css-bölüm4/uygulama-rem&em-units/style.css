@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-size: 1.4rem;
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*navbar menu starts*/
+.menu {
+    padding: 1.5rem;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-brand-logo:hover {
+    cursor: pointer;
+}
+
+.navbar-menu-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 2.5rem;
+}
+
+nav {
+    display: inline-block;
+    width: calc(100% - 1.7rem);
+    text-align: center;
+}
+
+.menu-navbar {
+    display: inline-block;
+}
+
+.navbar-menu-items {
+    display: inline-block;
+}
+
+.navbar-menu-item-feature {
+    color: #ea4242;
+}
+
+.navbar-menu-item {
+    color: black;
+}
+
+.navbar-menu-item:hover {
+    color: #ea4242;
+    cursor: pointer;
+}
+
+/*navbar menu ends*/
+/*content section starts*/
+.mainpage {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+.content-inner-text {
+    top: 50%;
+    left: 50%;
+    transform: (-50%, -50%);
+    -webkit-transform: (-50%, -50%);
+    -moz-transform: (-50%, -50%);
+    -ms-transform: (-50%, -50%);
+    -o-transform: (-50%, -50%);
+}
+
+.content-inner-btn {
+    margin-top: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    background: #f3ff39;
+    border-color: #f3ff39;
+    border-radius: 2.5rem;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 900;
+    height: 5rem;
+    min-width: 18rem;
+    line-height: 5rem;
+    padding: 0rem 2rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    -o-border-radius: 2.5rem;
+}
+
+.content-inner-btn:hover {
+    cursor: pointer;
+    background: #535353;
+    color: white;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.mainpage-img {
+    height: 50rem;
+    object-fit: Cover;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.decription-slide-title {
+    margin: 0px;
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.title_slideshow {
+    font-size: 3.4rem;
+    margin: 0rem;
+    font-weight: 600;
+}
+
+.text_slideshow {
+    font-size: 1.4rem;
+    margin: 0, 4rem 0rem 0rem 0rem;
+    font-weight: 400;
+}
+
+.content-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/*content section ends*/
+/*homepages section starts*/
+.row {
+    width: 100%;
+
+}
+
+.col {
+    width: 100%;
+    text-align: Center;
+}
+
+.col-4 {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+}
+
+.homepages-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #343434;
+}
+
+.col-4 img {
+    object-fit: cover;
+    height: 30rem;
+}
+
+.homepage-img img:hover {
+    cursor: pointer;
+}
+
+.demo-number {
+    color: #428bca;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.demo-number:hover {
+    cursor: pointer;
+}
+
+/*homepages section ends*/
+/*multiplehomepage section starts*/
+#MultipleHomepage {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+}
+
+.col-6 {
+    display: inline-block;
+}
+
+.left {
+    width: 41.6%;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.left h2 {
+    font-weight: 600;
+    color: #343434;
+    font-size: 2.2rem;
+}
+
+.left p {
+    line-height: 2.4rem;
+    color: #8d8d8d;
+    font-size: 1.2rem;
+    padding: 2rem 0rem;
+}
+
+.right {
+    width: 57%;
+}
+
+.col-6.right img {
+    height: 39rem;
+    object-fit: Cover;
+    vertical-align: middle;
+    width: 100%;
+
+}
+
+/*#MultipleHomepage section ends*/
+/*#MultipleHomepage sectionundaki problemler qalib*/
+/*details-builder section starts*/
+#details-builder p {
+    font-size: 1.4rem;
+    color: #958d8d;
+}
+
+.product-details-builder {
+    padding: 2rem 0rem 6rem 0rem;
+}
+
+.details-builder-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #343434;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.details-builder-text {
+    margin: 0 0 1rem;
+}
+
+/*details-builder section ends- bu sectionda olcu ve p`lerin rengin deyismek qaldi*/
+/*Multilingual Support section starts*/
+.multilangual-support-inner p,
+h2 {
+    text-align: Center;
+}
+
+.multiplangual-support-inner h2 {
+    font-weight: 600;
+    color: #343434;
+    font-size: 2.2rem;
+}
+
+.multilangual-support-inner p {
+    font-size: 1.4rem;
+}
+
+.flags {
+    display: Flex;
+    justify-content: space-between;
+}
+
+.flag {
+    padding: 0rem 6rem 0rem 3rem;
+    list-style-type: none;
+}
+
+/*Multilingual Support section ends*/
+/*Multilingual Support section tezden baxarsan flex movzusu gelende+ olculere fikir ver*/
+/*footer starts*/
+footer {
+    width: 100%;
+    background: #da4b38;
+    padding: 3rem 0rem;
+}
+
+.text-footer {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 4rem;
+    text-align: Center;
+}
+
+/*footer ends*/
