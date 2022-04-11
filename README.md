@@ -39,7 +39,7 @@
 - Fixed positioning
 - Sticky positioning
 - Fixed navigation& smooth scroll to top
-### Css bölüm 4 başlama tarixi 7 aprel
+### Css bölüm 4 başlama tarixi 7 aprel, bitmə tarixi 7 aprel
 - Background
 - Background opacity and Gradients
 - Background position and size
