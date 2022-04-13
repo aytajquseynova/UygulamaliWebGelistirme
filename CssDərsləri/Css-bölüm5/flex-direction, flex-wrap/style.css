@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px auto
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    flex-wrap: Wrap;
+
+}
+
+.item {
+    background-color: red;
+    color: White;
+    padding: 30px;
+    margin: 20px;
+    font-size: 34px;
+
+}
