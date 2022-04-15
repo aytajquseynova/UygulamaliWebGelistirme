@@ -1,4 +1,4 @@
-- [https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/13079422?start=210#overview]
+[ Udemy Web Development](https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/13079422?start=210#overview)
 ## Başlama tarixi 30.03.2022
 ## Sillabus
 #### Css bölüm 1  başlama və bitmə tarixi- 30 mart 
