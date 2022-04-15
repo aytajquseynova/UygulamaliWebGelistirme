@@ -1,4 +1,4 @@
-# Veb Developer Udemy kursu 
+# https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/13079422?start=210#overview
 ## Başlama tarixi 30.03.2022
 ## Sillabus
 #### Css bölüm 1  başlama və bitmə tarixi- 30 mart 
@@ -53,7 +53,7 @@
 - Rem and Em units
 - Css variables
 #### Css bölüm 5 başlama tarixi 11 aprel, bitmə tarixi  
-- Flexbox
+- Flexbox 
 - Flex-container: flex-direction, flex-wrap
 - Flexbox-alignments:justify-content, align-items
 - Flex item alignments: align-self
