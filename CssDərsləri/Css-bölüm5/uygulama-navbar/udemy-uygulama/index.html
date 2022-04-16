@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0 ;
+        padding: 0 ;
+      }
+      nav {
+        display: flex;
+        background-color: red;
+        justify-content: space-between;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      .logo {
+        align-self: center;
+        /*font-size: 30px;*/
+      }
+      ul {
+        display: flex;
+      }
+      li {
+        list-style-type: none;
+        margin: 20px;
+      }
+      ul a{
+          padding:12px;
+      }
+      ul a:hover {
+        background-color: rgb(211, 90, 90);
+      }
+      @media (max-width: 600px) {
+        nav {
+          flex-direction: column;
+        }
+        ul{
+            flex-direction:column;
+        }
+        ul li{
+            text-align:Center
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="" class="logo">Logo</a>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Details</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
