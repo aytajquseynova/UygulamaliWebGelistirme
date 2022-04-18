@@ -1,0 +1,56 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0
+}
+.container{
+    width:100%
+}
+.title h1, .title p{
+    text-align:center;
+    margin:2px;
+    color:White
+}
+.title{
+    background-color:orange;
+    padding:20px;
+}
+.navbar-menu{
+    background-color:black;
+    padding:10px
+}
+.navbar-menu ul{
+    display:flex;
+    flex-wrap:wrap
+}
+.navbar-menu ul li {
+    margin-right:15px;
+    list-style-type: none;
+}
+.navbar-menu ul li a{
+    text-decoration:none;
+    color:White;
+}
+.page-content{
+    width:100%;
+    display:flex;
+    margin:5px 0px 5px 0px
+}
+.ph{
+    background-color:goldenrod;
+    margin:10px
+}
+.page-content-inner{
+    background-color:rgb(237, 237, 237);
+    flex:75%
+}
+.sidebar{
+    background-color:rgb(237, 237, 237);
+    flex:25%;
+    padding:10px
+}
+.page-content h3, .page-content p{
+    color:black;
+    text-align:center;
+    font-weight:bold
+}
